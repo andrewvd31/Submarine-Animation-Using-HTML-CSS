@@ -4,6 +4,8 @@ body {
     overflow: hidden;
 }
 
+/*imp! SUBMARINE MAIN BODY */
+
 .seaContainer {
     position: absolute;
     top: 0%;
@@ -33,6 +35,8 @@ body {
     border-radius: 50px;
     transform: translate(-50%, -50%);
 }
+
+/*imp! SUBMARINE PROPELLER */
 
 .submarine__propeller {
     position: absolute;
@@ -75,6 +79,8 @@ body {
     transform: rotateX(45deg);
 }
 
+/*imp! SUBMARINE SAIL */
+
 .submarine__sail {
     position: absolute;
     top: 40%;
@@ -112,6 +118,8 @@ body {
     background: #ef689e;
 }
 
+/*imp! SUBMARINE WINDOWS */
+
 .submarine__window {
     width: 25px;
     height: 25px;
@@ -136,6 +144,8 @@ body {
 .two {
     left: 20%;
 }
+
+/*imp! SUBMARINE SHADOWS */
 
 .submarine__shadow-dark {
     position: absolute;
@@ -169,6 +179,8 @@ body {
     background: #ef689e;
 }
 
+/*imp! SUBMARINE PERISCOPE */
+
 .submarine__periscope {
     position: absolute;
     top: 0%;
@@ -192,6 +204,8 @@ body {
     transform: translate(-50%, -15%);
 }
 
+/*imp! SUBMARINE LIGHT */
+
 .light {
     position: absolute;
     top: 0%;
@@ -202,6 +216,8 @@ body {
     clip-path: polygon(0% 0%, 50% 45%, 50% 55%, 0% 100%);
     transform: translate(-18%, -45%);
 }
+
+/*imp! BUBBLES */
 
 .bubbles__container {
     position: absolute;
@@ -254,6 +270,8 @@ body {
     animation: move-right 1s infinite linear;
     animation-delay: 1s;
 }
+
+/*imp! GROUND */
 
 .ground__container {
     position: absolute;
@@ -418,6 +436,10 @@ body {
     animation: moveThegroundRight 22s infinite linear;
 }
 
+/*imp! ANIMATIONS */
+
+/*imp! WINDOW SHADOW CHANGE ANIMATION */
+
 @keyframes shadow-change {
     0%,
     100% {
@@ -440,6 +462,8 @@ body {
         background-image: linear-gradient(45deg, #c9e5d9 80%, #c9e5d9 0%, #fff 1%, #fff 19%, #c9e5d9 20%, #fff 21%, #fff 39%, #c9e5d9 40%);
     }
 }
+
+/*imp! RIGHT MOVEMENT ANIMATION */
 
 @keyframes move-right {
     0% {
@@ -468,6 +492,8 @@ body {
     }
 }
 
+/*imp! ROTATE INFINITE ANIMATION */
+
 @keyframes rotateInfinite {
     0% {
         transform: rotateX(0deg);
@@ -481,6 +507,8 @@ body {
         transform: rotateX(360deg);
     }
 }
+
+/*imp! GROUND RIGHT MOVEMENT ANIMATION */
 
 @keyframes moveThegroundRight {
     90% {
